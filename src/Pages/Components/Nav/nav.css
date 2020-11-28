@@ -1,0 +1,21 @@
+.nav_Main{
+    position: sticky;
+}
+.nav_Row > div  >img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+
+
+}
+
+
+.nav_Row{
+    justify-content: space-between ;
+}
+
+.nav_Row > div {
+    margin: auto;
+}
+
+

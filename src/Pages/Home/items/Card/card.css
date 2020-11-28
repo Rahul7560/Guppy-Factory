@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Questrial&display=swap');
+
+
+.card_Main{
+    background-color: white;
+}
+.row_Card{
+    width: 60%;
+    margin-top: 50px;    
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+
+    }
+.carddetails{
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+
+}
+.carddetails > h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder !important;
+    font-size: 45px !important;
+    color: #070d59;
+    
+}
+.carddetails> div > p {
+    margin-top: 20px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+   max-width: 500px;
+   text-align: justify;
+
+
+}
+.buttoncard{
+
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold !important;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: large;
+
+    transition:  all 0.2s ease;
+
+    border: solid 3px  rgb(10, 22, 68);
+    color: rgb(10, 22, 68);
+}
+.buttoncard:hover{
+
+    background-color: rgb(10, 22, 68); 
+    color: white;
+    transition:  all 0.2s ease;
+
+}
+.rowmain{
+    background: white;
+
+}
+
+.rowmain:hover{
+    background: radial-gradient( circle 467px at 50% 48.3%,  rgba(253, 243, 134, 0.158) 42%, rgba(251, 249, 129, 0.582) 99.8% );    transition: all 0.5s ease;
+
+}
+
